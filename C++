@@ -1,1 +1,2 @@
 1. free(NULL)/free(nullptr)不会抛出异常，编译器针对NULL会自动优化
+2. sizeof(NULL)/sizeof(nullptr)32bit都为4，64bit为4/8，这个和NULL的定义有关，默认NULL为0
